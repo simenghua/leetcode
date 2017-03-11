@@ -1,5 +1,6 @@
-/* 
-LeetCode #166
+// LeetCode #166 Fraction to Recurring Decimal
+//Time: O(n), Space: O(n)
+/*
 Given two integers representing the numerator and denominator of a fraction, return the fraction
 in string format. If the fractional part is repeating, enclose the repeating part in parentheses.
 For example,
@@ -73,7 +74,7 @@ F   F      F
 F   T      T
 
 4. Simple If Sentence
-(condition) ? do : else
+condition ? do : else
 
 5. Overflow Cases
 Use long to store integer to avoiding possible overflow
